@@ -35,7 +35,7 @@ size	equ 	$ - data
 sin:
 	dw	AF_INET
 	db	"80"
-	db	0x4a, 0x4a, 0x4a, 0x4a
+	db	TARGET IN HEX (small endian)
 	db	0, 0, 0, 0, 0, 0, 0, 0
 
 section .bss
